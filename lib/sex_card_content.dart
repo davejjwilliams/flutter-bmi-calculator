@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-
-const cardTextStyle = TextStyle(
-  fontSize: 18.0,
-  color: Color(0xFF8D8E98),
-);
+import 'constants.dart';
 
 class SexCardContent extends StatelessWidget {
   SexCardContent({@required this.cardIcon, @required this.cardText});
@@ -25,7 +21,7 @@ class SexCardContent extends StatelessWidget {
         ),
         Text(
           cardText,
-          style: cardTextStyle,
+          style: kCardTextStyle,
         )
       ],
     );
